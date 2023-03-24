@@ -1,0 +1,15 @@
+Save some configuration in this module.
+
+Create a new repository on the command line
+echo "# kong-k8s-lab" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/stheerachot/kong-k8s-lab.git
+git push -u origin main
+
+or push an existing repository from the command line
+git remote add origin https://github.com/stheerachot/kong-k8s-lab.git
+git branch -M main
+git push -u origin main
